@@ -5,7 +5,7 @@ const products = require("./products");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const allowedOrigin = "https://ase-challenge-gv6o.vercel.app";
+const allowedOrigin = "https://e-com-web-mocha.vercel.app";
 
 app.use(cors({
   origin: allowedOrigin,
